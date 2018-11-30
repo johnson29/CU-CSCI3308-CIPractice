@@ -23,7 +23,7 @@ geometry.o: geometry.c geometry.h
 	$(CC) $(CFLAGS) $< -o $@
 
 dep:
-	sudo brew install check
+	sudo apt-get install check
 
 clean:
 	$(RM) *.o

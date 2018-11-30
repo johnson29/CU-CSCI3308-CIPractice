@@ -1,4 +1,4 @@
-before_install: sudo brew install check
+before_install: sudo apt-get install check
 language: c
 compiler: gcc
 script: make dep && make && make test
